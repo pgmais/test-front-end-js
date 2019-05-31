@@ -8,7 +8,7 @@ O teste consiste em consumir uma API e realizar as tarefas solicitadas.
 
 ## 2. Tarefas
 
-### 2.1 Listar usuarios
+### 2.1 Listar usuários
 
 endpoint:
  ```
@@ -31,7 +31,7 @@ endpoint:
 1. Busca por nome;
 2. Ordenar tabela pelo campo;
 
-### 2.2 Lista de mensagens
+### 2.2 Mensagens enviadas
 
 endpoint:
  ```
@@ -46,12 +46,12 @@ Name: José do Boné
 
 Total: 23
 
-| id | type | contact | date_time | status |
-|----|------|---------|--------|--------|
-| 121 | EMAIL| jose@bone.com | 2019-02-06 08:53 | NOT_DELIVERED |
-| 123 | SMS  | 41877552369 | 2019-02-07 08:25 | NOT_DELIVERED |
-| 3121 | EMAIL| jose@bone.com | 2019-02-08 18:51 | DELIVERED |
-| 3431 | EMAIL| 41877552369| 2019-02-10 08:37 | NOT_DELIVERED |
+| id | type | contact | date_schedule | date_send | status |
+|----|------|---------|--------|--------|--------|
+| 121 | EMAIL| jose@bone.com | 2019-02-06 08:53 | 2019-02-06 08:54 | NOT_DELIVERED |
+| 123 | SMS  | 41877552369 | 2019-02-07 08:15 | 2019-02-07 08:25 | NOT_DELIVERED |
+| 3121 | EMAIL| jose@bone.com | 2019-02-08 17:53 | 2019-02-08 18:51 | DELIVERED |
+| 3431 | SMS| 41877552369 | 2019-02-10 08:36 | 2019-02-10 08:37 | NOT_DELIVERED |
 
 *********
 
